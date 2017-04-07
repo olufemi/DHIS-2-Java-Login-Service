@@ -31,7 +31,7 @@ public class LoginServiceTest
         defaultLoginService.loadUser("olufemi", 5);
         System.out.println("***** Setting Olufemi  for Validation *****");
         userDao.setUsername("Olufemi");
-        System.out.println("***** Testing Olufemi in failed Attempt in cache again max_attemt *****");
+        System.out.println("***** Testing Olufemi in failed Attempt in cache again max_attempt *****");
         AuthenticationEvent event=new AuthenticationEvent("Olufemi");
         if (defaultLoginService.isBlocked(userDao)) {
             System.out.println("***** Max attempts exceeded , You cant login*****");
