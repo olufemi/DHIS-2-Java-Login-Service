@@ -1,6 +1,6 @@
 package org.dhis.security;
 
-import javax.inject.Inject;
+
 import org.dhis.security.DefaultLoginService;
 import org.dhis.security.LoginService;
 import org.dhis.user.User;
